@@ -8,7 +8,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3001;
 
-const MONGO_URL = "mongodb+srv://DeepakJ:23adr024@cluster0.7paa4z1.mongodb.net/JD?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URL = "MongoDB_URL";
 
 app.use(cors());
 app.use(express.json());
